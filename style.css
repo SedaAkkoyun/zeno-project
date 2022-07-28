@@ -211,16 +211,69 @@ text-decoration: none;
 font-size: 1rem;
 }
 /* GÖZDEN KACMASIN */
-.content-g{
+.content-g {
     margin-top: 30px;
-}.col-gozden{
+}
+
+.col-gozden {
     background-color: white;
 }
-.spor-card-content-g{
-    background-color:white ;
+
+.spor-card-content-g {
+    background-color: white;
     padding-bottom: 43px;
-    
+
+}
+
+/* GÜNÜN İÇİNDEN */
+
+
+.g-slide-right {
+    background-image: url(image/gundem-right.jpg
+);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 250px;
+    overflow: hidden;
+}
+
+.- .g-right {
+    padding: 0 !important;
 }
 
 
+/* FOOTER------ */
+/* .text-small {
+    font-size: 0.9rem;
+  } */
 
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.list-li>a {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 25px;
+    /* margin-top: 5px; */
+}
+
+.list-li {
+    margin-bottom: 20px;
+}
+
+.list-ul {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: black;
+}
