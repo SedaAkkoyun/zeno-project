@@ -46,3 +46,68 @@ body {
 
 
 /* NAV END------------------ */
+
+
+
+
+
+.img-card{
+    border:none; 
+    border-radius: none;
+    object-fit: cover;
+background-color: #f5f5f5;
+}
+.card-body{
+    padding: 0.7rem 0;
+}
+.card-body>h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+   line-height: 25px;
+    
+}
+.carousel-item{
+    object-fit: cover;
+}
+.carousel-size{
+    width: 100%;
+    }
+
+ 
+
+
+.card .img-wrap{
+
+    height: 240px;
+}
+.img-wrap {
+display: block;
+
+}
+.img-wrap .img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* SLİDE CONTENT ----------*/
+
+.list-style-container{
+  padding: 0 1rem;
+   background-color: white;
+}
+.list-style{
+   padding: 25px 0;
+   border-bottom-style:dashed ;
+   font-size: 0.9rem;
+   font-weight: 600;
+   font-family: 'Montserrat', sans-serif;
+    
+}
+.list-style:hover{
+    color: rgb(95, 95, 95);
+}
+
+
